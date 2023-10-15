@@ -1,0 +1,37 @@
+div#md {
+    position: relative;
+
+    overflow: hidden;
+    user-select: none;
+    background-color: lightgreen;
+    cursor:crosshair;
+}
+
+div.forest {
+    position: absolute;
+}
+
+div.rail {
+    position: absolute;
+    color : #dddddd;
+}
+
+div.train {
+    position: absolute;
+}
+
+div.enemy {
+    position: absolute;
+    cursor:crosshair;
+}
+
+span#score {
+    margin-left : 10px;
+    background-color: white;
+}
+
+div.gameover {
+    position: absolute;
+    font-size: 55;
+        color:red;
+}
