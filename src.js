@@ -70,7 +70,7 @@ function initdraw() {
 }
 
 function removeElement(event) {
-    parentDiv.removeChild(event.target);
+    parentDiv.removeChild(event.currentTarget);
     score += 1;
     drawscore();
 
