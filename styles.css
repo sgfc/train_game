@@ -23,6 +23,9 @@ div.train {
 div.enemy {
     position: absolute;
     cursor:crosshair;
+    font-size: 18px;
+    width: 24px;
+    height: 24px;
 }
 
 span#score {
